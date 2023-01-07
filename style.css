@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container{
+border: 2px solid red;
+width: 350px;
+border-radius: 25px;
+background-color: black;
+color: white; 
+}
+
+
+.button{
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 300px;
+    height: 550px;
+    padding-top: 150px;
+    margin:auto;
+}
+
+.sayi{
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.sayi:hover{
+    background-color: white;
+    color: black;
+}
+
+.zero{
+    grid-column: 1/3;
+    border-radius: 55px;
+}
+.gray{
+    background-color: gray;
+
+}
+.yellow{
+    background-color: orange;
+}
